@@ -1,4 +1,36 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+nav {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-toggler {
+	border: none;
+	outline: none;
+}
+
 /* use this to put borders around things... */
-.mili_border{	
-	border:2px solid lightgray;
+
+@media (min-width:768px) {
+	.mili_border {
+		border: 2px solid lightgray;
+		margin-top: 3em;
+		margin-bottom: 3em;
+		padding: 5em;
+	}
+}
+
+@media (min-width:992px) {
+	.mili_border {
+		border: 2px solid lightgray;
+		margin-top: 5em;
+		margin-bottom: 5em;
+		padding: 5em;
+	}
 }
