@@ -119,14 +119,19 @@
             $(".dropdown").on('show.bs.dropdown', function () {
                 // alert('The dropdown is about to be shown.');
                 if (isCollapsed) {
-                    alert("True");
+                    // alert("True");
                     if (window.matchMedia('(max-width: 768px)').matches) {
                         // do functionality on screens smaller than 768px
+                        $(".oneline-padding").css({"padding-bottom": "22em"});
                     }
-                } else {
-                    alert("False");
+                } 
+            });
+            $(".dropdown").on('hide.bs.dropdown', function () {
+                if (isCollapsed) {
+                    if (window.matchMedia('(max-width: 768px)').matches) {
+                        $(".oneline-padding").css({"padding-bottom": "12em"});
+                    }
                 }
-
             });
         });
     </script>
