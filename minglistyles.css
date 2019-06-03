@@ -4,6 +4,7 @@ body {
 
 nav {
 	font-family: 'Montserrat', sans-serif;
+	font-size: 120%;
 }
 
 h1 {
@@ -35,6 +36,8 @@ h1 {
 	line-height: 0px;
 	margin: 0px 8px;
 }
+
+
 @media (max-width:768px) {
 	.oneline-border{
 		border-bottom: 2px solid lightgray;
@@ -60,4 +63,37 @@ h1 {
 		margin-bottom: 3em;
 		padding: 3em;
 	}
+}
+
+.contact {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	position: relative;
+	margin: 2em;
+	border-top: 2px solid lightgray;
+	border-bottom: 2px solid lightgray;
+}
+
+/* .contact .social-links {
+    position: absolute;
+} */
+
+.contact a {
+	
+    color: #342D33;
+    font-size: 1.728em;
+	margin-right: 1.2em;
+	
+}
+
+.contact a i {
+    -webkit-transition: -webkit-transform .2s;
+    transition: -webkit-transform .2s;
+    transition: transform .2s;
+    transition: transform .2s, -webkit-transform .2s
+}
+
+.contact a:hover i {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px)
 }
