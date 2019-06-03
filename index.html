@@ -46,35 +46,37 @@
                         <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="project.html" role="button">Project</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Publication</a>
-                    </li>
-
-                    <li class="nav-item dropdown">
+                    </li>                    
+                    <!-- <li class="nav-item dropdown">
                         <div class="btn-group">
                             <a class="nav-link" href="project.html" role="button">Project</a>
                             <a class="nav-link dropdown-toggle dropdown-toggle-split" id="navbarDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown"> -->
                                 <!-- <div class="dropdown-divider">Research</div> -->
-                                <a class="dropdown-item" href="#"><small>Spyphone</small></a>
+                                <!-- <a class="dropdown-item" href="#"><small>Spyphone</small></a>
                                 <a class="dropdown-item " href="#"><small>Movo</small></a>
                                 <a class="dropdown-item" href="#"><small>SpecWatch</small></a>
                                 <a class="dropdown-item" href="#"><small>Quac</small></a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#"><small>Others</small></a>
+                                <a class="dropdown-item" href="#"><small>Others</small></a> -->
                                 <!-- <a class="dropdown-item" href="#">MaskCall</a>
                                 <a class="dropdown-item" href="#">TurtleBot</a>
                                 <a class="dropdown-item" href="#">Clue</a>
                                 <a class="dropdown-item" href="#">Navigation</a> -->
-                            </div>
+                            <!-- </div>
                         </div>
-                    </li>
+                    </li> -->
                     <li class="nav-item">
                         <a class="nav-link" href="#">Teaching</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
                     </li>
 
                 </ul>
@@ -110,24 +112,6 @@
 
         $(document).ready(function () {
             
-            $(".dropdown").on('show.bs.dropdown', function () {
-                
-                    if (window.matchMedia('(max-width: 768px)').matches) {
-                        // do functionality on screens smaller than 768px
-                        $(".oneline-padding").css({"padding-bottom": "22em"});
-                    }
-                    
-            });
-            if (window.matchMedia('(min-width: 768px)').matches) {
-                    $(".oneline-padding").css({"padding-bottom": "0em"});
-            }
-            $(".dropdown").on('hide.bs.dropdown', function () {
-                
-                    if (window.matchMedia('(max-width: 768px)').matches) {
-                        $(".oneline-padding").css({"padding-bottom": "12em"});
-                    }
-                    
-            });
         });
     </script>
 </body>
