@@ -16,6 +16,7 @@ h1 {
 .navbar-toggler {
 	border: none;
 	outline: none;
+	font-size: 120%;
 }
 
 
@@ -72,6 +73,7 @@ h1 {
 	margin: 2em;
 	border-top: 2px solid lightgray;
 	border-bottom: 2px solid lightgray;
+	text-align: center;
 }
 
 /* .contact .social-links {
