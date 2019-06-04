@@ -65,17 +65,7 @@ h1 {
 		padding: 3em;
 	}
 }
-.fa-stack { 
-	font-size: 0.55em; 
-	margin-bottom: 0.4em;
-	padding-left: 2em;
-}
 
-#instagram{
-	
-		color: black;
-		
-}
 
 .contact {
 	padding-top: 0.6em;
@@ -90,7 +80,8 @@ h1 {
 .contact a {	
     color: #342D33;
     font-size: 1.728em;
-	margin-right: 1em;	
+	margin-right: .5em;	
+	margin-left: .5em;	
 }
 
 .contact a i {
