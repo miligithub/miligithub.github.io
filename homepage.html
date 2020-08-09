@@ -24,8 +24,8 @@
 <body data-spy="scroll" data-target="#myScrollspy" data-offset="0">
     <div class="container">
         <div class="row">
-            <nav class="col-md-3" id="myScrollspy">
-                <div class="make-me-sticky p-4" data-spy="affix" data-offset-top="205">
+            <nav class="col-md-4 sidebar-section" id="myScrollspy">
+                <div class="make-me-sticky p-4" data-spy="affix" data-offset-top="0">
                     <img src="images/ming.jpg" class="img-fluid rounded-circle mx-auto img-thumbnail p-3 mb-3"
                         alt="Ming's Photo">
                     <i class="fas fa-ad"></i>
@@ -45,7 +45,7 @@
                 </div>
 
             </nav>
-            <div class="col-md-9 content-section">
+            <div class="col-md-8 content-section">
                 <section id="section1">
                     <h1>Section 1</h1>
                     <p>Try to scroll this section and look at the navigation list while scrolling!</p>
@@ -66,15 +66,11 @@
                     <h1>Section 4-2</h1>
                     <p>Try to scroll this section and look at the navigation list while scrolling!</p>
                 </section>
-                <div id="btnTop" class="fixed-action-btn smooth-scroll"
-                    style="bottom: 45px; right: 24px;display: none;">
-                    <a href="#section1" class="btn-floating btn-large red">
-                        <i class="fa fa-arrow-up"></i>
-                    </a>
-                </div>
             </div>
 
         </div>
+        <a id="back-to-top" href="#" class="btn btn-lg back-to-top" role="button"><i class="fas fa-chevron-up"></i></a>
+
     </div>
 
     <!-- Optional JavaScript -->
@@ -115,18 +111,20 @@
 
 
             // Back to top
-            $(function () {
-
-                var $btn = $('#btnTop');
-                var $home = $('#section1');
-                var startpoint = $home.scrollTop() + $home.height();
-
-                $(window).on('scroll', function () {
-                    if ($(window).scrollTop() > startpoint) {
-                        $btn.show();
+            $(document).ready(function () {
+                $(window).scroll(function () {
+                    if ($(this).scrollTop() > 50) {
+                        $('#back-to-top').fadeIn();
                     } else {
-                        $btn.hide();
+                        $('#back-to-top').fadeOut();
                     }
+                });
+                // scroll body to 0px on click
+                $('#back-to-top').click(function () {
+                    $('body,html').animate({
+                        scrollTop: 0
+                    }, 400);
+                    return false;
                 });
             });
         });

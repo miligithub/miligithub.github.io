@@ -1,5 +1,5 @@
 body {
-    background: #eeeeee;
+    background: #F7F7F7;
     /* border-radius: 12px;
     display: flex;
     min-height: 100vh;
@@ -7,8 +7,9 @@ body {
 }
 
 .img-thumbnail {
-    background: #e2e1ea;
-    border: 1px solid #eaeaea;
+    background: #7DA2A9;
+    /* #e2e1ea; */
+    /* border: 1px solid #eaeaea; */
 }
 
 .make-me-sticky {
@@ -18,12 +19,17 @@ body {
 }
 
 div, section {
-    border: 1px solid #ff0000;
+    border: 1px solid #7DA2A9;
 }
 
-.col-md-3 {
+.sidebar-section {
     min-height: 200vh;
     height: 100vh;
+    background: #d1dee0;
+}
+
+.content-section {
+    background: #e0e9eb;
 }
 
 section {
@@ -34,3 +40,15 @@ section {
     top: 20px;
     z-index: 9999 !important;
 }
+
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+    background-color: #7DA2A9;
+}
+
+/* #5C6E58
+#8AA899
+#F2D349 */
