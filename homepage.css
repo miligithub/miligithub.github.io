@@ -1,5 +1,6 @@
 body {
-    background: #F7F7F7;
+    background: #EEEEEE;
+    /* background: #F7F7F7; */
     /* border-radius: 12px;
     display: flex;
     min-height: 100vh;
@@ -7,9 +8,11 @@ body {
 }
 
 .img-thumbnail {
-    background: #7da2a9;
+    background: #EFF0F1;
+    border: 1px solid #EAEAEA;
+    /* background: #7da2a9; */
     /* #e2e1ea; */
-    border: 1px solid #56bebe;
+    /* border: 1px solid #56bebe; */
 }
 
 .make-me-sticky {
@@ -18,22 +21,26 @@ body {
     top: 25px;
 }
 
-div, section {
-    border: 1px solid black;
-}
-
 .sidebar-section {
     min-height: 200vh;
     height: 100vh;
-    background: #d1dee0;
+    background: #FCFCFC;
+    /* background: #d1dee0; */
 }
 
 .content-section {
-    background: #e0e9eb;
+    background: #FFFFFF;
+    /* background: #e0e9eb; */
+}
+
+div {
+    /* border: 1px solid #EAEAEA; */
 }
 
 section {
+    padding: 25px;
     height: 500px;
+    border: 1px solid #EAEAEA;
 }
 
 .affix {
@@ -46,6 +53,35 @@ section {
     right: 25px;
     display: none;
     background-color: #7da2a9;
+}
+
+.contact {
+    padding-top: 0.6em;
+    padding-bottom: 0.4em;
+    position: relative;
+    margin-top: 3em;
+    border-top: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+    text-align: center;
+}
+
+.contact a {
+    color: #342D33;
+    font-size: 1.728em;
+    margin-right: .5em;
+    margin-left: .5em;
+}
+
+.contact a i {
+    -webkit-transition: -webkit-transform .2s;
+    transition: -webkit-transform .2s;
+    transition: transform .2s;
+    transition: transform .2s, -webkit-transform .2s
+}
+
+.contact a:hover i {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
 }
 
 /* #5C6E58
