@@ -1,5 +1,6 @@
 body {
     background: #EEEEEE;
+    font-family: 'Roboto', sans-serif;
     /* background: #F7F7F7; */
     /* border-radius: 12px;
     display: flex;
@@ -22,9 +23,10 @@ body {
 }
 
 .sidebar-section {
-    min-height: 200vh;
-    height: 100vh;
+    /* min-height: 200vh;
+    height: 100vh; */
     background: #FCFCFC;
+    border: 1px solid #EAEAEA;
     /* background: #d1dee0; */
 }
 
@@ -33,7 +35,8 @@ body {
     /* background: #e0e9eb; */
 }
 
-div {
+.container {
+    border: 1px solid #EAEAEA;
     /* border: 1px solid #EAEAEA; */
 }
 
@@ -56,20 +59,20 @@ section {
 }
 
 .contact {
-    padding-top: 0.6em;
-    padding-bottom: 0.4em;
+    padding-top: 0.6rem;
+    padding-bottom: 0.4rem;
     position: relative;
-    margin-top: 3em;
-    border-top: 2px solid lightgray;
-    border-bottom: 2px solid lightgray;
-    text-align: center;
+    margin-top: 3rem;
+    border-top: 1px solid #EAEAEA;
+    border-bottom: 1px solid #EAEAEA;
+    /* text-align: center; */
 }
 
 .contact a {
-    color: #342D33;
-    font-size: 1.728em;
-    margin-right: .5em;
-    margin-left: .5em;
+    color: #342d33;
+    font-size: 1.728rem;
+    margin-right: .5rem;
+    margin-left: .5rem;
 }
 
 .contact a i {
