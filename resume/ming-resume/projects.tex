@@ -1,0 +1,153 @@
+%-------------------------------------------------------------------------------
+%	SECTION TITLE
+%-------------------------------------------------------------------------------
+\vspace{-.15in}
+\cvsection{Projects}
+\vspace{-.05in}
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+\begin{cventries}
+	
+	%---------------------------------------------------------
+	\cvprojectentry
+	{2019-2020 SpyPhone}
+	{Eavesdropping on Smartphone Speakers with Motion Sensors}
+	{
+		\begin{cvitems} % Description(s) of tasks/responsibilities
+			\item Identified a security issue on smartphones that motion sensors (access granted to any app) can eavesdropping on speakers.
+			\item Developed an Android app to collect motion sensor (accelerometer and gyroscope) data while playing sounds through speakers.
+			\item Reconstructed the high frequency (16,000 Hz) sound information from  low frequency (400 Hz) motion data by building K-SVD dictionaries and recognized the speech using Bi-LSTM networks.
+			\item  \underline{Utilized}: Recurrent Neural Networks, Compressed Sensing, Android Programming.
+		\end{cvitems}
+	}
+	
+	
+	%---------------------------------------------------------
+	\cvprojectentry
+	{2018-2019 MotionVoice}
+	{A Spoof-proof Voice Authentication System for Smartphones}
+	{
+		\begin{cvitems} % Description(s) of tasks/responsibilities
+			\item Proposed a new voice authentication system that is immune to replay attacks by leveraging the self demodulation and acoustic attenuation effect when sound signals transmitted through human body.
+			\item Designed an Android app to collect the body-borne vibration and sound data simultaneously.
+			\item Applied signal processing techniques such as syllable separation to sound data and using sequence-to-sequence LSTM network on vibration data to identify users.
+			\item  \underline{Utilized}: Machine learning, Digital Signal Processing, Android Programming.
+		\end{cvitems}
+	}
+	
+	
+	%---------------------------------------------------------
+	\cvprojectentry
+	{2018 DriverDetect}
+	{Using Atmospheric Pressure Sensors to Determine Whether the User is the Driver or a Passenger}
+	{
+		\begin{cvitems} % Description(s) of tasks/responsibilities
+			\item Proposed a new driver detection system based on the fact that each seat in the vehicle is expected to experience differences in atmospheric pressure for each vehicle acceleration dynamic. 
+			\item Designed a circuit with Arduino to test the system. 
+			\item \underline{Utilized}: Arduino programming, Digital Signal Processing.
+		\end{cvitems}
+	}
+	
+	
+	
+%	%---------------------------------------------------------
+%	\cvprojectentry
+%	{UltraUnlock}
+%	{A Sequence-based Place Recognition Method}
+%	{
+%		\begin{cvitems} % Description(s) of tasks/responsibilities
+%			\item Computer Vision, Android Programming
+%		\end{cvitems}
+%	}
+	
+	
+	%---------------------------------------------------------
+	\cvprojectentry
+	{2016-2017 QUAC}
+	{Quality-Aware Contract-Based Incentive Mechanisms for Crowdsensing}
+	{
+		\begin{cvitems} % Description(s) of tasks/responsibilities
+			\item Design two quality-aware contract-based incentive mechanisms for crowdsensing, named QUAC-F and QUAC-I, under full information model and incomplete information model, respectively, which differ in the level of users’ information known to the system.
+			\item Mathematically proved that both QUAC-F and QUAC-I are guaranteed to maximize the platform utility while satisfying individual rationality and incentive compatibility.
+			\item  \underline{Utilized}: Algorithm Design, Contract Theory.
+		\end{cvitems}
+	}
+	
+%	%---------------------------------------------------------
+%	\cvprojectentry
+%	{RecPlace}
+%	{A Sequence-based Place Recognition Method}
+%	{
+%		\begin{cvitems} % Description(s) of tasks/responsibilities
+%			\item Computer Vision, Android Programming.
+%		\end{cvitems}
+%	}
+	
+	%---------------------------------------------------------
+	\cvprojectentry
+	{2016 TurtleBot}
+	{Using RTAB-Map and a TurtleBot to Create a Floor Map}
+	{
+		\begin{cvitems} % Description(s) of tasks/responsibilities
+			\item Used a TurtleBot to perform graph-based simultaneous localization and mapping (SLAM) by using RTAB-Map.
+			\item Programmed speech control and voice feedback on the TurtleBot.
+			\item  \underline{Utilized}: ROS Robot Programming, Computer Vision.
+		\end{cvitems}
+	}
+	
+	
+	
+	
+	%---------------------------------------------------------
+	\cvprojectentry
+	{2015-2017 SpecWatch} % Organization
+	{Solving Adversasial Spectrum Usage Monitoring Problem with Unknown Statistics in CRNs.} % Job title
+	%    {Mines, Golden, CO} % Location
+	%    {Jan. 2014 - May. 2015} % Date(s)
+	{
+		\begin{cvitems} % Description(s) of tasks/responsibilities
+			\item Modeled the monitoring problem as an adversarial multi-armed bandit problem with switching cost.
+			\item
+			Designed an asymptotically optimal online algorithm, termed {\textsc{SpecWatch}}, and prove its normalized expected weak regret is $O(1/\sqrt[3]{T})$, which converges to 0 as time horizon $T$ approaches to $\infty$. 
+%			\item
+%			Improve the performance of {{SpecWatch}} and design another algorithm, {{SpecWatch+}}, which reduces the bias in selecting channels and explores all channels more efficiently. 
+			%	This algorithm guarantees the actual value of weak regret to be  $O(T^{2/3})$, which is asymptotically optimal as well, with probability $1 - \delta$, for any $\delta \in (0,1)$.	
+%			\item
+%			Program and run extensive simulations whose results support the theoretical findings.
+			\item  \underline{Utilized}: Algorithm Design, Game Theory.
+		\end{cvitems}
+	}
+	
+	%---------------------------------------------------------
+	\cvprojectentry
+	{2014-2015 IntelliSample} % Organization
+	{Self-tuning Program to Output the Shortest Paths Efficiently on Very Large Graphs} % Job title
+	%    {Mines, Golden, CO} % Location
+	%    {Aug. 2014 – Dec. 2014} % Date(s)
+	{
+		\begin{cvitems} % Description(s) of tasks/responsibilities
+			\item Implemented three shortest path algorithms (Bellman Ford's, Dijkstra's, and Gabow's) and two sampling methods based on Forest Fire Algorithm.
+			\item Provided a framework which predicts the best shortest path algorithm by pre-running on the sample graph.
+			\item  \underline{Utilized}: Algorithm Selection, Graph Sampling.
+		\end{cvitems}
+	}
+	
+	%---------------------------------------------------------
+	\cvprojectentry
+	{2014 PaperSelect} % Organization
+	{Program to Automatically Select Academic Papers for Researchers} % Job title    
+	%    {Mines, Golden, CO}% Location
+	%    {Jan. 2014 – May. 2014 } % Date(s)
+	{
+		\begin{cvitems} % Description(s) of tasks/responsibilities
+%			\item Be the first to formulate the paper selection problem.
+			\item Provided two greedy approaches to solve the problem, one is heuristic and the other is $(1$$-$$1/e)$-approximate. 
+			\item  \underline{Utilized}: Algorithm Design.	
+		\end{cvitems}
+	}
+	
+	
+%---------------------------------------------------------
+\end{cventries}
