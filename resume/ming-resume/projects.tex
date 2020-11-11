@@ -16,13 +16,27 @@
 	{Eavesdropping on Smartphone Speakers with Motion Sensors}
 	{
 		\begin{cvitems} % Description(s) of tasks/responsibilities
-			\item Identified a security issue on smartphones that motion sensors (access granted to any app) can eavesdropping on speakers.
-			\item Developed an Android app to collect motion sensor (accelerometer and gyroscope) data while playing sounds through speakers.
-			\item Reconstructed the high frequency (16,000 Hz) sound information from  low frequency (400 Hz) motion data by building K-SVD dictionaries and recognized the speech using Bi-LSTM networks.
-			\item  \underline{Utilized}: Recurrent Neural Networks, Compressed Sensing, Android Programming.
+			\item Identified a security issue on smartphones that \textbf{motion sensors} (access granted to any app) can \textbf{eavesdropping on speakers}.
+			\item Developed an \textbf{Android} app to collect motion sensor (accelerometer and gyroscope) data while playing sounds through speakers.
+			\item Reconstructed the high frequency (16,000 Hz) sound information from  low frequency (400 Hz) motion data by building \textbf{K-SVD dictionaries} and recognized the speech using \textbf{Bi-LSTM networks}.
+			\item  \underline{Utilized}: {Recurrent Neural Networks, Compressed Sensing, Android Programming.}
 		\end{cvitems}
 	}
-	
+
+	\cvprojectentry
+	{2019-2020 UltraUnlock}
+	{Smartphone Authentication Using Gestures in the Air}
+	{
+		\begin{cvitems} % Description(s) of tasks/responsibilities
+			\item Implemented a novel smartphone authentication system so that the user draw gestures in the air to unlock the phone.			
+			\item Adopted \textbf{active acoustic sensing} technique where the smartphone actively sends near-ultrasound baseband and classified hand gestures using the received modulated signals, 			
+			\item Extracted \textbf{in-phase/quadrature components} using \textbf{CIC Decimation filter} and feed the I/Q data to train the \textbf{SVM}.			
+			\item  \underline{Utilized}: {DIgital Signal Processing, Machine Learning.}
+		\end{cvitems}
+	}
+		
+	%Cascaded Integrator-Comb This filter provides a linear phase response and utilizing only delay and addition and subtraction. In other words, it requires no multiplication operations and therefore has less computational costs, which is more suitable to be implemented on smartphones.
+
 	
 	%---------------------------------------------------------
 	\cvprojectentry
@@ -30,10 +44,10 @@
 	{A Spoof-proof Voice Authentication System for Smartphones}
 	{
 		\begin{cvitems} % Description(s) of tasks/responsibilities
-			\item Proposed a new voice authentication system that is immune to replay attacks by leveraging the self demodulation and acoustic attenuation effect when sound signals transmitted through human body.
-			\item Designed an Android app to collect the body-borne vibration and sound data simultaneously.
-			\item Applied signal processing techniques such as syllable separation to sound data and using sequence-to-sequence LSTM network on vibration data to identify users.
-			\item  \underline{Utilized}: Machine learning, Digital Signal Processing, Android Programming.
+			\item Proposed a new \textbf{voice authentication} system that is immune to \textbf{replay attacks} by leveraging the \text{self demodulation} and \text{acoustic attenuation} effect when sound signals transmitted through human body.
+			\item Designed an Android app to collect the \textbf{body-borne vibration} and \textbf{sound data} simultaneously.
+			\item Applied signal processing techniques such as syllable separation to sound data and using \textbf{sequence-to-sequence LSTM} network on vibration data to identify users.
+			\item  \underline{Utilized}: {Machine learning, Digital Signal Processing, Android Programming.}
 		\end{cvitems}
 	}
 	
@@ -44,9 +58,9 @@
 	{Using Atmospheric Pressure Sensors to Determine Whether the User is the Driver or a Passenger}
 	{
 		\begin{cvitems} % Description(s) of tasks/responsibilities
-			\item Proposed a new driver detection system based on the fact that each seat in the vehicle is expected to experience differences in atmospheric pressure for each vehicle acceleration dynamic. 
-			\item Designed a circuit with Arduino to test the system. 
-			\item \underline{Utilized}: Arduino programming, Digital Signal Processing.
+			\item Proposed a new driver detection system based on the fact that each seat in the vehicle is expected to experience differences in \textbf{atmospheric pressure} for each vehicle acceleration dynamic. 
+			\item Designed a circuit with \textbf{Arduino} and \textbf{barameters} to test the system. 
+			\item \underline{Utilized}: {Arduino programming, Digital Signal Processing.}
 		\end{cvitems}
 	}
 	
@@ -69,7 +83,7 @@
 	{Quality-Aware Contract-Based Incentive Mechanisms for Crowdsensing}
 	{
 		\begin{cvitems} % Description(s) of tasks/responsibilities
-			\item Design two quality-aware contract-based incentive mechanisms for crowdsensing, named QUAC-F and QUAC-I, under full information model and incomplete information model, respectively, which differ in the level of users’ information known to the system.
+			\item Design two quality-aware contract-based \textbf{incentive mechanisms} for crowdsensing, named QUAC-F and QUAC-I, under full information model and incomplete information model, respectively, which differ in the level of users’ information known to the system.
 			\item Mathematically proved that both QUAC-F and QUAC-I are guaranteed to maximize the platform utility while satisfying individual rationality and incentive compatibility.
 			\item  \underline{Utilized}: Algorithm Design, Contract Theory.
 		\end{cvitems}
@@ -91,7 +105,7 @@
 	{Using RTAB-Map and a TurtleBot to Create a Floor Map}
 	{
 		\begin{cvitems} % Description(s) of tasks/responsibilities
-			\item Used a TurtleBot to perform graph-based simultaneous localization and mapping (SLAM) by using RTAB-Map.
+			\item Used a \textbf{TurtleBot} to perform graph-based simultaneous localization and mapping (\textbf{SLAM}) by using \textbf{RTAB-Map}.
 			\item Programmed speech control and voice feedback on the TurtleBot.
 			\item  \underline{Utilized}: ROS Robot Programming, Computer Vision.
 		\end{cvitems}
@@ -108,7 +122,7 @@
 	%    {Jan. 2014 - May. 2015} % Date(s)
 	{
 		\begin{cvitems} % Description(s) of tasks/responsibilities
-			\item Modeled the monitoring problem as an adversarial multi-armed bandit problem with switching cost.
+			\item Modeled the monitoring problem as an \textbf{adversarial multi-armed bandit }problem with switching cost.
 			\item
 			Designed an asymptotically optimal online algorithm, termed {\textsc{SpecWatch}}, and prove its normalized expected weak regret is $O(1/\sqrt[3]{T})$, which converges to 0 as time horizon $T$ approaches to $\infty$. 
 %			\item
@@ -120,34 +134,35 @@
 		\end{cvitems}
 	}
 	
-	%---------------------------------------------------------
-	\cvprojectentry
-	{2014-2015 IntelliSample} % Organization
-	{Self-tuning Program to Output the Shortest Paths Efficiently on Very Large Graphs} % Job title
-	%    {Mines, Golden, CO} % Location
-	%    {Aug. 2014 – Dec. 2014} % Date(s)
-	{
-		\begin{cvitems} % Description(s) of tasks/responsibilities
-			\item Implemented three shortest path algorithms (Bellman Ford's, Dijkstra's, and Gabow's) and two sampling methods based on Forest Fire Algorithm.
-			\item Provided a framework which predicts the best shortest path algorithm by pre-running on the sample graph.
-			\item  \underline{Utilized}: Algorithm Selection, Graph Sampling.
-		\end{cvitems}
-	}
+%	%---------------------------------------------------------
+%	\cvprojectentry
+%	{2014-2015 IntelliSample} % Organization
+%	{Self-tuning Program to Output the Shortest Paths Efficiently on Very Large Graphs} % Job title
+%	%    {Mines, Golden, CO} % Location
+%	%    {Aug. 2014 – Dec. 2014} % Date(s)
+%	{
+%		\begin{cvitems} % Description(s) of tasks/responsibilities
+%			\item Implemented three shortest path algorithms (Bellman Ford's, Dijkstra's, and Gabow's) and two sampling methods based on Forest Fire Algorithm.
+%			\item Provided a framework which predicts the best shortest path algorithm by pre-running on the sample graph.
+%			\item  \underline{Utilized}: Algorithm Selection, Graph Sampling.
+%		\end{cvitems}
+%	}
 	
 	%---------------------------------------------------------
-	\cvprojectentry
-	{2014 PaperSelect} % Organization
-	{Program to Automatically Select Academic Papers for Researchers} % Job title    
-	%    {Mines, Golden, CO}% Location
-	%    {Jan. 2014 – May. 2014 } % Date(s)
-	{
-		\begin{cvitems} % Description(s) of tasks/responsibilities
-%			\item Be the first to formulate the paper selection problem.
-			\item Provided two greedy approaches to solve the problem, one is heuristic and the other is $(1$$-$$1/e)$-approximate. 
-			\item  \underline{Utilized}: Algorithm Design.	
-		\end{cvitems}
-	}
-	
+%	\cvprojectentry
+%	{2014 PaperSelect} % Organization
+%	{Program to Automatically Select Academic Papers for Researchers} % Job title    
+%	%    {Mines, Golden, CO}% Location
+%	%    {Jan. 2014 – May. 2014 } % Date(s)
+%	{
+%		\begin{cvitems} % Description(s) of tasks/responsibilities
+%%			\item Be the first to formulate the paper selection problem.
+%			\item Provided two greedy approaches to solve the problem, one is heuristic and the other adopts \textbf{submodularity} and 
+%			is $(1$$-$$1/e)$-approximate. 
+%			\item  \underline{Utilized}: Algorithm Design.	
+%		\end{cvitems}
+%	}
+%	
 	
 %---------------------------------------------------------
 \end{cventries}

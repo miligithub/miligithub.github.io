@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.7)  7 OCT 2020 22:29
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.7)  9 NOV 2020 15:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -953,8 +953,6 @@ Overfull \hbox (10.97398pt too wide) in alignment at lines 10--29
 ) (./Ming-Resume/interests.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
 (Font)              scaled to size 9.0pt on input line 8.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sc' will be
-(Font)              scaled to size 9.0pt on input line 12.
 ) (./Ming-Resume/education.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/b/n' will be
 (Font)              scaled to size 10.0pt on input line 19.
@@ -972,28 +970,35 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
 (Font)              scaled to size 8.0pt on input line 19.
 )
 (./Ming-Resume/projects.tex
+Underfull \hbox (badness 1603) in paragraph at lines 52--52
+[]\TU/SourceSansPro(2)/m/n/10 Proposed a new \TU/SourceSansPro(2)/b/n/10 voice 
+authentication \TU/SourceSansPro(2)/m/n/10 system that is immune to \TU/SourceS
+ansPro(2)/b/n/10 replay attacks \TU/SourceSansPro(2)/m/n/10 by leveraging the [
+] and
+ []
+
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sc' will be
-(Font)              scaled to size 10.0pt on input line 121.
+(Font)              scaled to size 10.0pt on input line 135.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 149.
+(Font)              scaled to size 8.0pt on input line 168.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
-(Font)              scaled to size 8.0pt on input line 149.
- [1
+(Font)              scaled to size 8.0pt on input line 168.
+[1
 
 ]) (./Ming-Resume/publications.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/b/n' will be
 (Font)              scaled to size 10.0pt on input line 9.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/it' will be
 (Font)              scaled to size 10.0pt on input line 9.
-)
-(./Ming-Resume/employment.tex
+) (./Ming-Resume/employment.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <9> not avail
 able
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
 t line 24.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
 (Font)              scaled to size 9.0pt on input line 24.
-) (./Ming-Resume/presentations.tex
+)
+(./Ming-Resume/presentations.tex
 ! Undefined control sequence.
 <recently read> \entrypositionstylesmall 
                                          
@@ -1028,12 +1033,12 @@ Package rerunfilecheck Info: File `ming-resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 32051 strings out of 479418
- 632858 string characters out of 5884586
+ 32049 strings out of 479418
+ 632748 string characters out of 5884586
  1076076 words of memory out of 5000000
- 49016 multiletter control sequences out of 15000+600000
- 533958 words of font info for 97 fonts, out of 8000000 for 9000
+ 49015 multiletter control sequences out of 15000+600000
+ 533950 words of font info for 96 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 67i,14n,112p,837b,461s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 67i,14n,112p,837b,467s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on ming-resume.pdf (2 pages).
